@@ -214,7 +214,7 @@ ul.nav-links li a {
 
 @media screen and (max-width: 600px) {
   iframe {
-    width: 480px;
+    width: 440px;
     height: 320px;
   }
 } 
@@ -223,5 +223,12 @@ ul.nav-links li a {
   iframe {
     width: 400px;
     height: 250px;
+  }
+} 
+
+@media screen and (max-width: 420px) {
+  iframe {
+    width: 380px;
+    height: 240px;
   }
 } 

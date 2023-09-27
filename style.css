@@ -172,7 +172,7 @@ iframe {
   padding: 20px;
   z-index: 200;
   box-sizing: border-box;
-  transform: translateY(-100%);
+  transform: translate(-100%);
   transition: all 0.3s linear 0s;
 }
 
@@ -230,5 +230,11 @@ ul.nav-links li a {
   iframe {
     width: 340px;
     height: 240px;
+  }
+  .btns{
+    flex-direction: column;
+  }
+  button {
+    margin-bottom: 10px;
   }
 } 
